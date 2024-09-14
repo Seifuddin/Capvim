@@ -1,0 +1,13 @@
+.col img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 0px;
+}
+
+.container-why {
+    width: 100%;
+
+}

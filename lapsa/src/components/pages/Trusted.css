@@ -1,0 +1,21 @@
+.container-trusted {
+    background: rgb(65, 63, 63);
+}
+
+.box {
+    margin: 5px;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+.nametag {
+    margin: 20px;
+}

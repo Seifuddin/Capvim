@@ -1,0 +1,13 @@
+import React from "react";
+import './Contacts.css';
+
+const Contacts = () => {
+    return (
+        <div className="container-contacts">
+            <h1>Capvim Contacts</h1>
+            <p>Welcome to Capvim Contacts</p>
+        </div>
+    );
+};
+
+export default Contacts;

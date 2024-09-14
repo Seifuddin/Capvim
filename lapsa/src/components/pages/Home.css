@@ -1,0 +1,49 @@
+.background {
+    background-image: url('../images/891aa274f7fd54c02a1b2e5a16f4ff8b.jpg');
+    background-size: cover; /* cover the entire background */
+    background-position: center; /*center the background*/
+    background-repeat: no-repeat; /*avoid image repetition */
+    height: fit-content; /* full viewport height */
+    width: 100%;
+}
+
+.bg-motto {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.container {
+    border: 3px solid red;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.responsible {
+    border: 2px solid white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.responsible .par {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.btn-explore {
+    color: white;
+    background: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,41 @@
+.slideshow {
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.slide img {
+    width: 80%;
+    height: auto;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.description {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.slide{
+    position: relative;
+    width: 100%;
+    height: auto;
+    transition: opacity 1s;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.slide:not(.active) {
+    opacity: 0;
+}

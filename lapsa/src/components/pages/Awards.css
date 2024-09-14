@@ -1,0 +1,38 @@
+.imgcolnel {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+}
+
+.box .imgcolnel2 {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.box {
+    display: block;
+    width: 100%;
+    height: fit-content;
+}
+
+.par-header {
+    color: #00ff15;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    height: auto;
+}
+
+.row .parag {
+    padding: 10px;
+    color: yellow;
+}
+
+.container-awards {
+    background: rgb(61, 59, 59);
+    border-radius: 20px;
+}
