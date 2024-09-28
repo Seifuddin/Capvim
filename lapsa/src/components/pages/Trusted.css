@@ -1,5 +1,8 @@
 .container-trusted {
-    background: rgb(65, 63, 63);
+    background: rgb(61, 59, 59);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .box {

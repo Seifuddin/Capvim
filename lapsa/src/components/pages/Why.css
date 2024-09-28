@@ -8,6 +8,12 @@
 }
 
 .container-why {
-    width: 100%;
+    background: rgb(61, 59, 59);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
 
+.quality {
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
 }

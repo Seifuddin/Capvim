@@ -4,12 +4,12 @@ import colonel from '../images/1000040014.jpg'
 
 const Why = () => {
     return (
-        <div className="container-why bg-dark">
+        <div className="container-why border">
             <h3 className="Trusted-ttle text-white display-5 text-center m-5 fw-bold"> Why work with us </h3>
             <hr />
             <div className="row p-3">
             <div className="col col-xl-3 col-lg-6 col-12">
-              <div className="quality bg-secondary rounded p-2 m-2">
+              <div className="quality rounded p-2 m-2">
               <p className="heading fw-bold text-center text-warning"> High Quality Product </p>
               <p className='p text-white'>Lorem ipsum dolor sit  accusamus aut blanditiis non et autem. Debitis quaerat repellendus officia maiores labore.</p>
               <hr />
@@ -30,7 +30,7 @@ const Why = () => {
             </div>
 
             <div className="col col-xl-3 col-lg-6 col-12">
-            <div className="quality bg-secondary rounded p-2 m-2">
+            <div className="quality rounded p-2 m-2">
             <p className="heading fw-bold text-center text-warning"> High Quality Product </p>
               <p className='p text-white'>Lorem ipsum dolor sit  accusamus aut blanditiis non et autem. Debitis quaerat repellendus officia maiores labore.</p>
               <hr />
@@ -51,7 +51,7 @@ const Why = () => {
             </div>
 
             <div className="col col-xl-3 col-lg-6 col-12">
-            <div className="quality bg-secondary rounded p-2 m-2">
+            <div className="quality rounded p-2 m-2">
             <p className="heading fw-bold text-center text-warning"> High Quality Product </p>
               <p className='p text-white'>Lorem ipsum dolor sit  accusamus aut blanditiis non et autem. Debitis quaerat repellendus officia maiores labore.</p>
               <hr />
@@ -72,7 +72,7 @@ const Why = () => {
             </div>
 
             <div className="col col-xl-3 col-lg-6 col-12">
-            <div className="quality bg-secondary rounded p-2 m-2">
+            <div className="quality rounded p-2 m-2">
             <p className="heading fw-bold text-center text-warning"> High Quality Product </p>
               <p className='p text-white'>Lorem ipsum dolor sit  accusamus aut blanditiis non et autem. Debitis quaerat repellendus officia maiores labore.</p>
               <hr />

@@ -1,0 +1,29 @@
+.container-sub {
+    background: rgb(61, 59, 59);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.bx {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bx .h4 {
+    color: red;
+}
+
+.img-link {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+}

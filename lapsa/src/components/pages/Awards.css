@@ -1,5 +1,5 @@
-.imgcolnel {
-    width: 100%;
+.imgtrophy {
+    max-width: 83%;
     height: auto;
     border: 2px solid white;
 }
@@ -7,7 +7,7 @@
 .box .imgcolnel2 {
     width: 100%;
     height: auto;
-    border-radius: 30px;
+    border-radius: 50%;
     border: 2px solid white;
 }
 
@@ -15,6 +15,12 @@
     display: block;
     width: 100%;
     height: fit-content;
+    overflow: hidden;
+}
+
+.box .col {
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+    margin: 10px;
 }
 
 .par-header {
@@ -25,14 +31,35 @@
     border-radius: 20px;
     width: fit-content;
     height: auto;
-}
-
-.row .parag {
-    padding: 10px;
-    color: yellow;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-fill-mode: none;
 }
 
 .container-awards {
     background: rgb(61, 59, 59);
     border-radius: 20px;
+    margin: 20px;
+}
+
+@keyframes anim {
+    from {
+        font-size: 15px;
+        color: blue;
+    }
+
+    to {
+        font-size: 100pxpx;
+        color: #00ff15;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .box {
+        width: 100%;
+    }
+}
+.Trusted-ttle .OurMotto {
+    border: none;
+    box-shadow: 5px 5px 15px rgba(90, 2, 253, 0.5);
 }

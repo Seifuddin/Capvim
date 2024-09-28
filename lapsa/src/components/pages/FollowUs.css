@@ -1,0 +1,16 @@
+.follow .imej {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background: white;
+}
+
+.follow {
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}

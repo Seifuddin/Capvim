@@ -1,18 +1,17 @@
 .slideshow {
     position: relative;
-}
-
-.slide {
-    position: absolute;
     width: 100%;
-    text-align: center;
+    height: auto;
 }
 
 .slide img {
-    width: 80%;
+    width: 70%;
     height: auto;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .description {
@@ -27,7 +26,6 @@
 }
 
 .slide{
-    position: relative;
     width: 100%;
     height: auto;
     transition: opacity 1s;

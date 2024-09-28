@@ -1,0 +1,37 @@
+.quality .img-rate {
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+    border: 5px solid red;
+}
+
+.p {
+    text-align: justify;
+}
+
+.container-ratings {
+    background: rgb(61, 59, 59);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container-ratings .quality {
+    border-radius: 20px;
+    position: relative;
+    animation: myAnim 2s linear 1s infinite alternate;
+}
+
+.heading {
+    color: greenyellow;
+}
+@keyframes myAnim {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 10px;
+    }
+    
+}

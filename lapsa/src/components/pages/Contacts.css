@@ -1,3 +1,34 @@
 .container-contacts {
-    background-color: blue;
+    background: rgb(61, 59, 59);
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+}
+
+.bxi {
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2em;
+    position: relative;
+    background: black;
+}
+
+.bxi::after {
+    content: '';
+    position: absolute;
+    height: 102%;
+    width: 102%;
+    background-image: conic-gradient(red, #00ff55, white, yellow, blue, purple, yellow, #00ff55, red);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.bxi::before {
+    filter: blur(1.5rem);
 }
